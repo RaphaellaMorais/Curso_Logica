@@ -1,2 +1,2 @@
-# Curso_Logica_Alura
+# Curso_Logica
  Lógica de Programação com JS
