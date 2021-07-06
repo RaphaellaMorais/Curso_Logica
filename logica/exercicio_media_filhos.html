@@ -1,0 +1,49 @@
+<meta charset="UTF-8">
+
+<script>
+	
+
+	function pulaLinha() {
+		
+		document.write("<br>")
+	}
+
+	function mostra(frase) {
+		
+		document.write(frase)
+	}
+
+
+	var ano = 1500
+	var anoAtual = 2021
+	var media = 28
+
+	mostra("A primeira geração de brasileiros surgiu em 1528, a segunda em 1556 e assim por diante. Desde 1500 até o ano atual, quantas gerações se passaram?");
+
+	pulaLinha();
+
+	mostra("Se passaram " + Math.round((anoAtual - ano)/media) + " gerações.");
+
+</script>
+
+
+
+<meta charset="UTF-8">  // Códio do prof;
+
+    <script>
+        function pulaLinha() {
+            document.write("<br>");
+        }
+
+        function mostra(frase) {
+            document.write(frase);
+            pulaLinha();
+        }
+
+        var idadeMediaQuandoTemFilhos = 28;
+        var anoAtual = 2016; 
+
+        var quantidadeDeGeracoes = (anoAtual - 1500) / idadeMediaQuandoTemFilhos;
+
+        mostra(quantidadeDeGeracoes);
+    </script>
